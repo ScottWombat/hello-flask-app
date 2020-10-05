@@ -21,6 +21,7 @@ on:
 
 jobs:
     my_ci_pipeline:
+      runs-on: ubuntu-latest
        steps:
          - name: Intro
            run: echo "Starting...."
