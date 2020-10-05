@@ -24,6 +24,9 @@ jobs:
        runs-on: ubuntu-latest
        
        steps:
+         - name: Intro
+           run: echo "Starting...."
+           
          - name: Git clone our repository
            uses: actions/checkout@v1
             
